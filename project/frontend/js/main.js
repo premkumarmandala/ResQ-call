@@ -1,7 +1,7 @@
 const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 const API_URL = isLocalhost 
     ? `${window.location.protocol}//${window.location.hostname}:5000` 
-    : 'https://resq-call-backend.onrender.com'; // NOTE: Update this URL after deploying the backend to Render
+    : 'https://resqcall.onrender.com'; // NOTE: Update this URL after deploying the backend to Render
 
 
 // Auth Helpers
